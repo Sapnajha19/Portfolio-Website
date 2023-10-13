@@ -123,7 +123,7 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="https://sapna-jha.netlify.app/resume" />
+            <Button text="Resume" link="https://sapna-jha.netlify.app/resume.pdf" />
           </motion.div>
         </div>
       </div>
