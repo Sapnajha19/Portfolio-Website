@@ -8,59 +8,50 @@ function Projects() {
   const projectsData = [
     {
       image: "/project1.png",
-      projectName: "Pokedex",
-      projectLink: "https://netlify.com",
+      projectName: "Google clone",
+      projectLink: "https://googleclonewebsite.netlify.app/",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+        "Developed a Google clone project using React JS. Created a responsive and user-friendly search engine interface that accurately retrieves and displays relevant search results.",
       projectTech: [
         "React",
-        "Redux Toolkit",
-        "SCSS",
-        "Firebase",
-        "Typescript",
-        "PokeApi",
+        "Material UI",
+        "Javascript",
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "",
+        externalLink: "https://googleclonewebsite.netlify.app/",
       },
     },
     {
       image: "/project2.png",
-      projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
+      projectName: "Opensauced browser extension",
+      projectLink: "",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
+        "Developed an extension that connects Github users to their open-sauced profile page if they are a signed-up user at open-sauced. Designed and implemented the extension to seamlessly integrate with users’ GitHub profiles, providing convenient access to their OpenSauced profiles directly from GitHub.",
       projectTech: [
         "React",
-        "Sockets",
-        "Node.js",
-        "Express",
-        "MongoDB",
+        "Vite",
+        "Javascript",
         "Styled Components",
       ],
       projectExternalLinks: {
-        github: "",
+        github: "https://github.com/open-sauced-craftwork/open_sauced_craftwork_browser_extension-Sapnajha19",
         externalLink: "",
       },
     },
     {
       image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
+      projectName: "Emoji search app",
+      projectLink: "https://emojimatcher.netlify.app/",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "Developed a dynamic emoji search application using JavaScript and ReactJS. Implemented real-time filtering of emojis based on the user’s input, enhancing search accuracy. Integrated a clipboard copy feature, allowing users to effortlessly copy selected emojis for use in various applications and websites.",
       projectTech: [
         "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Redux Toolkit",
+        "Javascript"
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "",
+        externalLink: "https://emojimatcher.netlify.app/",
       },
     },
   ];

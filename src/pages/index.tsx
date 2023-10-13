@@ -10,6 +10,7 @@ import About from "@/sections/About";
 import Contact from "@/sections/Contact";
 import Projects from "@/sections/Projects";
 import Experience from "@/sections/Experience";
+import icon from "../../public/favicon.ico";
 
 function Index() {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,8 +24,8 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>Kishan Sheth</title>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <title>Sapna Jha</title>
+        <link rel="shortcut icon" href={icon.src} />
       </Head>
       {showContent && (
         <>
