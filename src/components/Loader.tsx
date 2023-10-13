@@ -10,7 +10,7 @@ function Loader({ isLoading, setIsLoading }: any) {
   }, [setIsLoading]);
   return (
     <AnimatePresence>
-      {isLoading && (
+      {/* {isLoading && (
         <motion.div
           className="loader"
           exit={{ scale: 0 }}
@@ -67,7 +67,7 @@ function Loader({ isLoading, setIsLoading }: any) {
             </g>
           </motion.svg>
         </motion.div>
-      )}
+      )} */}
     </AnimatePresence>
   );
 }
